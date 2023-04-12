@@ -74,22 +74,76 @@ For example, i would be written like:
 <i>language, techinal term, or title</i>
 
 small
-- This is a phrasing element. By using small, this allows for the text to appear smaller suggesting less urgency of importance, which is good for the use of copyright in the footer.
+- By using small, this allows for the text to appear smaller suggesting less urgency of importance, which is good for the use of copyright in the footer.
+For example, small would be written like:
+    <small></small>
 
 6. Explain block Elements and also explain the list of block elements and why they are used from below:
+
 html
+- The html tag is used for the set up of a document, known as the "root of the document".
+For example, html would be written like:
+    <html></html>
+
 head
+- Head is an element used to define the container of metadata within the document. This element must be placed between the html element and the body element.
+For example, head would be written like:
+    <head></head>
+
 body
+- Body is the tag used to contain all other content that's placed within the document.
+For example, body would be written like:
+    <body></body>
+
 header
+- The header is part of the introduction of content. This element can be found at the top of a page and is usually accompanied with a logo or company name as well as a navigation. This element can also be in other sections and are used to deifne sections and articles with introductory pieces.
+For example, header would be written like:
+    <header>heading</header>
+
 nav
+- Nav is the tag used to define the navigation in a webpage. Typically, this tag is at the top of a webpage and is able to provide links either in the existing document or on a different document.
+For example, nav would be written like:
+    <nav></nav>
+
 main
+- Main is the tag used for the main content of a webpage. This element can only be used once and lets the webpage know what the main content of the webpage is.
+For example, main would be written like:
+    <main></main>
+
 section
+- Section is the tag used to group similar content together. There can be multiple sections used and typically each section has its own heading or subheading.
+For example, section would be written like:
+<section></section>
+
 article
+- Article is the tag used for self-contained content in a webpage. There can be multiple articles used and this tag is intended for independent distribution or reusable distribution.
+For example, article would be written like:
+    <article></article>
+
 div
+- This is a generic element. Div is a block element that's used to group other elements together. 
+For example, div would be written like:
+    <div></div>
+
 aside
+- Aside is the tag used to define a portion of a document. This portion of content is only able to be used on content that's indirectly related to the main content fo a webpage.
+For example, aside would be written like:
+    <aside></aside>
+
 footer
+- The footer is at the end of many webpages. The footer typically includes information such as copyright, extra information about the company, or lists of links.
+For example, footer would be written like:
+    <footer></footer>
+
 span
+- This is a generic element. Span is an inline container which can be used to mark up part of a text or part of a document.
+For example, span would be written like:
+    <span></span>
+
 small
+- By using small, this allows for the text to appear smaller suggesting less urgency of importance, which is good for the use of copyright in the footer.
+For example, small would be written like:
+    <small></small>
 
 7. Explain why accessibility is important and also explain the accessibility properties like:
 landmark roles
