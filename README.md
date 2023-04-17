@@ -185,11 +185,20 @@ For example,
 15. What are different types of flexbox properties and what is the major difference between them?
 - Different types of flexbox properties are width, flex and inline-flex, flex-direction, flex-wrap, justify-content, align-items, and align-content. The flex box property width, allows for the control of space that will be taken up. Flex is a flex property that allows the container to act as block element. Flex-inline is a property that allows the container to act like an inline-block element. Flex-direction changes the orientation (vertical or horizontal) for the content to be justified or aligned properly. Flex-wrap property allows for the control of the container to be a single-line or multi-line layout. Justify-content allows for the control of the position and alignment on the main axis as well as controlling the space around other flex-items. Align-items works the same as the justify-content property, but instead works on the cross axis. Align-content is a property used to align flex containers when there is extra space on the cross axis.
 
-16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
+16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property.
+
+- div would be the parent element meaning anything within HTML inside "div" would be considered the child elements. After writing "display: flex;" in CSS, all the child elements will now act as child elements. By writing "display: flex;" this develops a flex container on the webpage, which allows for the use of flex properties within CSS.
+div {
+    display: flex;
+}
 
 17. Write a code example on how you will use a flexbox property on a parent element with sub properties.
+- div {
+    flex-direction: row-reverse;
+}
 
 18. What is CSS grid property?
+- The CSS grid property is  a system that controls a layout with horizontal and vertical lines. This property also contains invisible grid lines within the vertical and horizontal lines to create columns and rows as well as controlling the space around columns and rows.
 
 19. Write the parent and two sub-properties used for CSS Grid Property.
 
