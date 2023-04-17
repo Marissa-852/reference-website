@@ -177,8 +177,10 @@ For example,
 - Margins and padding are two ways of adding space into a box. The difference between margins and padding is that margins apply space outside of the box while padding applies space inside a box but outside of the content.
 
 13. What are different types of display properties?
+- Different types of display properties are inline, block, inline-block, and none. Inline allows an element to be on the same line. Block forces an element to be on its own line. Inline-block allows an element to be formatted like an inline element but still allows for height and width changes. None allows an element to be completely removed.
 
 14. Write a brief explanation of flexbox property
+- Flexbox allows for the control of the flow and alignment of elements on a webpage. Flexbox allows elements to fit together on the same line and can also work on a vertical axis as well.
 
 15. What are different types of flexbox properties and what is the major difference between them?
 
