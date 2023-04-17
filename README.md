@@ -163,12 +163,18 @@ For example,
 <link rel="stylesheet" href="css/style.css"/>
 
 9. What is the difference between CSS property and value (write explanation and an example code)
+- CSS property is the type of design being added to a website while a CSS value is the accepted value for a property. For example, 
+    background-color: purple;
+    the property would be "background-color" and the value would be "purple".
 
 10. Why do we use border-box property in CSS?
+- The border-box property is used in CSS to allow for padding and the border to be included into the width and height within the box so that the total is the same value.
 
 11. Explain different type of ways we can add spacing to an element
+-  padding and margins are different ways of applying space to an element. Padding can add space to an element by adding space inside the box. Margins add space outside the box of an element which allows for separation between other elements.
 
 12. What is the main difference between margin and padding?
+- Margins and padding are two ways of adding space into a box. The difference between margins and padding is that margins apply space outside of the box while padding applies space inside a box but outside of the content.
 
 13. What are different types of display properties?
 
