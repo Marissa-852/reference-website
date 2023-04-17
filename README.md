@@ -183,6 +183,7 @@ For example,
 - Flexbox allows for the control of the flow and alignment of elements on a webpage. Flexbox allows elements to fit together on the same line and can also work on a vertical axis as well.
 
 15. What are different types of flexbox properties and what is the major difference between them?
+- Different types of flexbox properties are width, flex and inline-flex, flex-direction, flex-wrap, justify-content, align-items, and align-content. The flex box property width, allows for the control of space that will be taken up. Flex is a flex property that allows the container to act as block element. Flex-inline is a property that allows the container to act like an inline-block element. Flex-direction changes the orientation (vertical or horizontal) for the content to be justified or aligned properly. Flex-wrap property allows for the control of the container to be a single-line or multi-line layout. Justify-content allows for the control of the position and alignment on the main axis as well as controlling the space around other flex-items. Align-items works the same as the justify-content property, but instead works on the cross axis. Align-content is a property used to align flex containers when there is extra space on the cross axis.
 
 16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
 
