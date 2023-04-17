@@ -146,11 +146,21 @@ For example, small would be written like:
     <small></small>
 
 7. Explain why accessibility is important and also explain the accessibility properties like:
+- Accessibility is important because it allows those with impairments to be able to access all information equally and to provide an ideal experience. To make sure a website is accessible, following the four principles perceivable, operable, understandable, and robust is a must in order to comply with accessibility requirements.
+
 landmark roles
+-  landmark roles are part of ARIA, meaning those using screen readers are able to jump to specific sections within a website.
+
 aria labels
+- aria labels are an attribute that provides an extra description within the HTML of a website and provides users with a non-visual label that will only be announced by screen readers.
+
 image alternative texts
+- image alternative text is an attribute that describes an image. Using image alternative text allows for a description of the image incase it doesn't download and allows for a description of the image for users with visual impairments.
 
 8. What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file)
+- CSS stands for cascading style sheet, which is the language that's used to control the appearance of a website within the HTML pages. In order to put CSS into an HTML file, a CSS file needs to be created first  then create a folder inside the CSS file named style.css. To link the CSS file into the HTML file a link must be created and then write stylesheet into the rel= section then css/style.css into the href section of the link.
+For example,
+<link rel="stylesheet" href="css/style.css"/>
 
 9. What is the difference between CSS property and value (write explanation and an example code)
 
