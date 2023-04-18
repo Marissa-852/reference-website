@@ -212,7 +212,7 @@ grid-template-rows
 - The difference between display: flex and display: grid is that flex is a one-dimentional layout system while CSS grid is a two-dimentional layout system.
 
 21. What sub-property do we use to divide elements in CSS Grid properties?
-- 
+- The sub-properties used to divide elements in CSS grid are grid-template-columns and grid-template-rows.
 
 22. What unit we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example)
 
