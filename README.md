@@ -201,10 +201,18 @@ div {
 - The CSS grid property is  a system that controls a layout with horizontal and vertical lines. This property also contains invisible grid lines within the vertical and horizontal lines to create columns and rows as well as controlling the space around columns and rows.
 
 19. Write the parent and two sub-properties used for CSS Grid Property.
+parent:
+.container
+
+subproperties:
+grid-template-columns
+grid-template-rows
 
 20. What is the difference between display: flex and display: grid?
+- The difference between display: flex and display: grid is that flex is a one-dimentional layout system while CSS grid is a two-dimentional layout system.
 
-21. What sub-property we use to divide elements in CSS Grid properties?
+21. What sub-property do we use to divide elements in CSS Grid properties?
+- 
 
 22. What unit we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example)
 
