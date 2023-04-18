@@ -208,9 +208,16 @@ div {
 
 22. What unit we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example)
 
+ grid-template-columns: 1fr 1fr 1fr;
+ can also use %, px,and em.
+
 23. What is the area property in CSS grid we use for the child elements?
 
+In CSS grid you would use the area property "grid-area" for the child elements.
+
 24. Which sub-property of display grid can you use to prevent displaying empty columns. Write a code example of that property.
+
+grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
 
 25. Explain the steps to add google fonts to your CSS file and how will you link it to the html file.
 - Firstly, go to google fonts and find a font that you like. Then click the plus sign on the font and scroll down to the bottom of the pop out bar to copy the link. Once in the html file write a link inside the head of your html file. Inside "rel=" write "stylesheet" then in the "href" section paste your link.
